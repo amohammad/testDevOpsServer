@@ -1,5 +1,5 @@
 {
-  "name": "getintodevops-hellonode",
+  "name": "amohammad-testDevOpsServer",
   "version": "1.0.0",
   "description": "A Hello World HTTP server",
   "main": "main.js",
@@ -16,6 +16,6 @@
     "docker",
     "dockerfile"
   ],
-  "author": "miiro@getintodevops.com",
+  "author": "alamt2@gmail.com",
   "license": "ISC"
 }
