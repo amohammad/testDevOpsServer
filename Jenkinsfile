@@ -20,10 +20,11 @@ node {
 
         app.inside {
             sh 'echo "Tests passed"'
-        }
-    steps {
+            steps {
                 sh 'node --version'
             }
+        }
+    
     }
 
     stage('Push image') {
