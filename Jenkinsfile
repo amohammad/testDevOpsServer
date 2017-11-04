@@ -21,6 +21,9 @@ node {
         app.inside {
             sh 'echo "Tests passed"'
         }
+    steps {
+                sh 'node --version'
+            }
     }
 
     stage('Push image') {
